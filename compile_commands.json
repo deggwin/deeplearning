@@ -1,0 +1,24 @@
+[
+ {
+  "directory": "C:\\dev\\projects\\vk-deeplearning",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Iheaders",
+   "-Iincludes",
+   "-IC:/VulkanSDK/1.4.335.0/Include",
+   "./src/main.cpp",
+   "-o",
+   "vulkan-proj",
+   "-LC:/VulkanSDK/1.4.335.0/Lib",
+   "-lvulkan-1",
+   "-lglfw3",
+   "-lopengl32",
+   "-lgdi32",
+   "-Llibs"
+  ],
+  "file": "./src/main.cpp"
+ }
+]
